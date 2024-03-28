@@ -1,0 +1,27 @@
+{
+  "name": "ukraine-supplication",
+  "version": "1.0.0",
+  "description": "ukraine-supplication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyaremiiy/ukraine-supplication.git"
+  },
+  "keywords": [
+    "ukraine-supplication"
+  ],
+  "author": "Nazar Yaremiiy <nazar.yaremiiy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyaremiiy/ukraine-supplication/issues"
+  },
+  "homepage": "https://github.com/nyaremiiy/ukraine-supplication#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
